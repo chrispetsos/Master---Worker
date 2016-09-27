@@ -1,0 +1,2 @@
+call setpaths.bat
+%JAVAHOME%\java -jar -Djava.security.policy=policy.all -Dcom.sun.jini.mahalo.managerName=TransactionManager %JINIHOME%\lib\mahalo.jar http://%DOWNLOADHOST%/mahalo-dl.jar policy.all txn_log public

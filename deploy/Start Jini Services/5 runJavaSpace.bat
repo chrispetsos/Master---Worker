@@ -1,0 +1,2 @@
+call setpaths.bat
+%JAVAHOME%\java -jar -Djava.security.policy=policy.all -Dcom.sun.jini.outrigger.spaceName=JavaSpaces %JINIHOME%\lib\outrigger.jar http://%DOWNLOADHOST%/outrigger-dl.jar policy.all persistent.logdir public

@@ -1,0 +1,1 @@
+set JAVAHOME=C:\TogetherSoft\Together6.0.1\jdk\bin
